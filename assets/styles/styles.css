@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contacts {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.contacts img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+/* maria */
+
+.maria {
+    border: 0.5px solid rgba(60, 60, 60, 0.309);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px
+}
+
+.datos-maria {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.nombre-maria {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.nombre-maria h2 {
+    font-size: large;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.nombre-maria p {
+    font-size: small;
+    color: grey;
+    margin: 0px;
+}
+
+.iconos-maria {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+/* button */
+
+.button {
+    border: 0.5px solid rgba(60, 60, 60, 0.309);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 5px;
+}
+
+.chat-button {
+    background-color: #b9a5e6;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+}
+
+/* contacts */
+
+.contact {
+    border: 0.5px solid rgba(60, 60, 60, 0.309);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 30px
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.contact-data p {
+    margin: 0px;
+    color: grey;
+}
+
+.contact-data h4 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+/* networking section */
+
+.right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.networking {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.networking p {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+}
+
+.networking img {
+    width: 30%;
+}
