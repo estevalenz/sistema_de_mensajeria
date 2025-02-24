@@ -25,8 +25,6 @@ h1 {
     height: 50px;
 }
 
-/* maria */
-
 .maria {
     border: 0.5px solid rgba(60, 60, 60, 0.309);
     display: flex;
@@ -67,8 +65,6 @@ h1 {
     padding: 0px 20px;
 }
 
-/* button */
-
 .button {
     border: 0.5px solid rgba(60, 60, 60, 0.309);
     display: flex;
@@ -83,8 +79,6 @@ h1 {
     border: none;
     padding: 15px 40px;
 }
-
-/* contacts */
 
 .contact {
     border: 0.5px solid rgba(60, 60, 60, 0.309);
@@ -110,8 +104,6 @@ h1 {
     margin: 0px;
     font-weight: 400;
 }
-
-/* networking section */
 
 .right {
     flex-grow: 1;
